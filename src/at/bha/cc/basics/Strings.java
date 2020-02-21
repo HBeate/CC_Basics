@@ -39,10 +39,19 @@ public class Strings {
         System.out.println(name.substring(0,5));
         System.out.println(name.substring(0,5)+ name.substring(1));*/
 
-        String meinSubstring = "Ich heisse Beate";                //Aufgabe 2
+        String meinSubstring = "Ich heisse Beate";
         System.out.println(meinSubstring.substring(5, 7));
 
-        System.out.println(meinSubstring(meinSubstring,5,7));
+
+        for (int i = 0; i < meinSubstring.length(); i++) {                    //Aufgabe 2 ohne Methode
+            if (i >= 5 && i < 7) {
+                System.out.println(meinSubstring.charAt(i));
+            }
+
+        }
+
+
+        System.out.println(meinSubstring(meinSubstring,5,7));  //Aufgabe 2 MIT Methode
     }
 
     private static String meinSubstring(String meinSubstring,int startIndex, int endIndex) {
