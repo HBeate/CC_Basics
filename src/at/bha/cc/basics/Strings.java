@@ -37,5 +37,6 @@ public class Strings {
 
         System.out.println(name1.substring(6));
         System.out.println(name.substring(0,5));
+        System.out.println(name.substring(0,5)+ name.substring(1));
     }
 }
