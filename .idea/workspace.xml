@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d63dfda-1b9a-4e9e-8833-bb2c5e21e670" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CC_Basics01/at/bha/cc/basics/Strings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CC_Basics01/at/bha/cc/basics/Strings.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/at/bha/cc/basics/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/bha/cc/basics/Strings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +128,29 @@
       <option name="presentableId" value="Default" />
       <updated>1581356782566</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added a strange substring">
+      <created>1582313037423</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582313037423</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added a strange substring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a strange substring" />
   </component>
   <component name="WindowStateProjectService">
     <state x="658" y="72" key="#Project_Structure" timestamp="1581357563770">
@@ -147,33 +169,41 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="485" y="132" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1536.824@0.0.1536.824" timestamp="1582021431200" />
+    <state x="399" y="8" key="CommitChangelistDialog2" timestamp="1582313036667">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="399" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582313036667" />
+    <state x="100" y="100" width="1336" height="624" key="DiffContextDialog" timestamp="1582314268901">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="100" y="100" width="1336" height="624" key="DiffContextDialog/0.0.1536.824/1920.0.2560.1400@0.0.1536.824" timestamp="1582314268901" />
     <state x="623" y="168" key="FileChooserDialogImpl" timestamp="1582312002570">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="623" y="168" key="FileChooserDialogImpl/0.0.1536.824/1920.0.2560.1400@0.0.1536.824" timestamp="1581708179700" />
     <state x="623" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582312002570" />
-    <state width="1478" height="204" key="GridCell.Tab.0.bottom" timestamp="1582312990507">
+    <state width="1478" height="204" key="GridCell.Tab.0.bottom" timestamp="1582314666043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1400@0.0.1536.824" timestamp="1582311323121" />
+    <state width="1478" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1400@0.0.1536.824" timestamp="1582314666043" />
     <state width="2377" height="477" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1581973286558" />
     <state width="1478" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582312990507" />
-    <state width="1478" height="204" key="GridCell.Tab.0.center" timestamp="1582312990506">
+    <state width="1478" height="204" key="GridCell.Tab.0.center" timestamp="1582314666043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="204" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1400@0.0.1536.824" timestamp="1582311323121" />
+    <state width="1478" height="204" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1400@0.0.1536.824" timestamp="1582314666043" />
     <state width="2377" height="477" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1581973286558" />
     <state width="1478" height="204" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582312990506" />
-    <state width="1478" height="204" key="GridCell.Tab.0.left" timestamp="1582312990506">
+    <state width="1478" height="204" key="GridCell.Tab.0.left" timestamp="1582314666043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="204" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1400@0.0.1536.824" timestamp="1582311323121" />
+    <state width="1478" height="204" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1400@0.0.1536.824" timestamp="1582314666043" />
     <state width="2377" height="477" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1581973286558" />
     <state width="1478" height="204" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582312990506" />
-    <state width="1478" height="204" key="GridCell.Tab.0.right" timestamp="1582312990506">
+    <state width="1478" height="204" key="GridCell.Tab.0.right" timestamp="1582314666043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1478" height="204" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1400@0.0.1536.824" timestamp="1582311323121" />
+    <state width="1478" height="204" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1400@0.0.1536.824" timestamp="1582314666043" />
     <state width="2377" height="477" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1581973286558" />
     <state width="1478" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582312990506" />
     <state width="1478" height="258" key="GridCell.Tab.1.bottom" timestamp="1582230411401">
@@ -201,15 +231,20 @@
     </state>
     <state x="323" y="0" key="SettingsEditor/0.0.1536.824/1920.0.2560.1400@0.0.1536.824" timestamp="1581708218626" />
     <state x="323" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581434969722" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1582313040917">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582313040917" />
     <state x="470" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1582301246376">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.2560.1400@0.0.1536.824" timestamp="1581709549153" />
     <state x="2703" y="404" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1581971160958" />
     <state x="470" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582301246376" />
-    <state x="577" y="290" key="extract.method.dialog" timestamp="1582212809078">
+    <state x="577" y="290" key="extract.method.dialog" timestamp="1582314438269">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="577" y="290" key="extract.method.dialog/0.0.1536.824/1920.0.2560.1400@0.0.1536.824" timestamp="1582314438269" />
     <state x="2882" y="492" key="extract.method.dialog/0.0.1536.824/1920.0.2560.1400@1920.0.2560.1400" timestamp="1581761642541" />
     <state x="577" y="290" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1582212809078" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1581763876852">
